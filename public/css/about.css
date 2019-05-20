@@ -1,0 +1,370 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    /* background-color: aliceblue; */
+}
+
+.sidebar {
+    margin-top: 150px;
+}
+
+.sidebar1 {
+    margin-top: 80px;
+    /* background-color: aqua; */
+}
+
+.main {
+    width: 100%;
+    height: 400px;
+}
+
+.sidebar h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.sidebar p {
+    /* font-size: 12px; */
+    font-size: 11px;
+    color: #939598;
+    line-height: 16px;
+    font-style: italic;
+}
+
+.design {
+    background-color: #1e251f;
+    color: white;
+    padding: 2px 20px;
+    margin: 8px 0;
+    border: none;
+    /* cursor: pointer; */
+    width: 50%;
+    border-radius: 20px 20px 20px 20px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.seprator p{
+    font-size: 11px;
+    font-style: italic;
+}
+/* .sidebar1 {
+    margin-top: 80px;
+    background-color: rgb(123, 133, 133);
+    float: right;
+} */
+
+.who-are-we {
+    background: #f3f3f5;
+    padding: 50px 0px;
+    
+    position: relative;
+    top: -104px;
+    z-index: -1;
+}
+
+.sidebar2 p {
+    font-size: 12px;
+}
+
+.texting {
+   text-align: center;
+}
+.full-image{
+    position: relative;
+    top: -104px;
+}
+.green-box {
+    background: #8dc73f;
+    padding: 60px;
+}
+.blue-box {
+    background: #2bbcf3;
+    padding: 60px;
+    position: relative;
+    left: -14%;
+    z-index: -1;
+}
+.client ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px;
+}
+.side-thumbanail .grey-box {
+    height: 80px !important;
+}
+.our-team{margin-top:50px;}
+.side-thumbanail{padding:0px;}
+.our-team .grey-box{height:150px;background: #818286;margin-bottom: 10px;}
+.our-team .grey-box-inner {
+    background: #818286;
+    
+    WIDTH: 47%;
+    FLOAT: LEFT;
+    HEIGHT: 100PX;
+    MARGIN-BOTTOM: 20PX;
+}
+.green-box h4,.green-box p, .blue-box h4,.blue-box p{color:#fff;}
+.service-we-offer-inner{width:80%; margin:auto;}
+
+.service-we-offer-inner h1 {
+    font-size: 54px;
+    font-weight: bold;
+    color: #c03339;
+}
+    .service-we-offer-inner h1 span {
+        display: block;
+        font-size: 28px;
+        font-weight: normal;
+        color:#393939;
+    }
+.service-we-offer{}
+.who-are-we .seprator {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-top: 40px;
+}
+.our-fire-fighters h3 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.our-fire-fighters{
+    padding-left: 40px;
+}
+.client{
+    margin-top: 100px;
+}
+.sidebar3 {
+    margin-top: 80px;
+    /* background-color: #d5dede; */
+    padding: 0px;
+    /* float: right; */
+    /* margin-top: 0px; */
+}
+
+.image {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.texting h4 {
+    color: #3a3a3c;
+    font-size: 30px;
+    /* font-weight: 300; */
+    margin-bottom: 0px;
+}
+
+.texting h2 {
+    color: #3a3a3c;
+    font-size: 87px;
+    font-weight: 500;
+    margin-bottom: 0PX;
+    margin-top: 0px;
+}
+
+.texting h1 {
+    margin-top: -15px;
+    color: #b8353b;
+    font-size: 147px;
+    font-weight: 700;
+    MARGIN-BOTTOM: 0px;
+}
+
+.images {
+    width: 100%;
+    margin: 0px;
+}
+
+.text {
+    margin-left: 150px;
+}
+
+.box2 {
+    background-color: #68d44d;
+    height: 480px;
+    position: absolute;
+    right: 7%;
+    top: 5px;
+}
+
+.box1 {
+    background-color: #22d8f5;
+    height: 480px;
+    position: absolute;
+    /* right: 10%;
+    top: 0px; */
+    /* float: right;
+    margin-top: 0px;
+    box-sizing: border-box'  */
+}
+
+.space {
+    margin-top: 100px;
+    position: relative;
+}
+
+.client-sec {
+    /* position: absolute; */
+    top: 600px;
+}
+
+.client-sec ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.client-sec ul li img {
+    margin-right: 33px;
+    width: 136px;
+    height: 45px;
+}
+
+.text h3 {
+    color: #da2d23;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.text h1 {
+    color: #383533;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.content1 {
+    padding: 97px 70px 20px 47px;
+    box-sizing: border-box;
+}
+
+.content2 {
+    padding: 115px 30px 20px 50px;
+    box-sizing: border-box;
+}
+
+.box3 {
+    background-color: #68d44d;
+    height: 400px;
+    position: relative;
+    bottom: 10%;
+}
+
+
+/* .client {
+    position: absolute;
+}
+
+.blog-section {
+    background-color: #68d44d;
+    height: 400px;
+} */
+
+@media screen and (max-width: 768px) and (min-width: 10px) {
+    .subscribe-now-inner span + span +span input{width:60%;}
+.client ul li {
+    list-style: none;
+    float: left;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+
+.service-we-offer-inner {
+    width: 100%;
+    
+}
+.blue-box {
+   
+    position: static;
+    /* left: -14%; */
+    z-index: auto;
+    margin-top: 20px;
+}
+.our-fire-fighters {
+    padding-left: 40px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.who-are-we .seprator{display:block}
+}
+/*blog page start*/
+.blog-sec-product .blog-large-img{height:180px;}
+.blog-product{margin-bottom: 20px;}
+.blog-page-sep .blog-full-image{}
+.subscribe-sec .subscribe-now-inner {
+    background: #f3f3f5;
+    padding: 20px;
+    display:table;
+    width: 100%;
+}
+.subscribe-now-inner span {
+    font-weight: bold;
+    display:table-cell;
+    vertical-align: middle;
+}
+.subscribe-now-inner span + span {
+    font-weight: normal;
+    margin-left: 20px;
+    display:table-cell;
+    vertical-align: middle;
+}
+.subscribe-now-inner span + span +span{display:table-cell;vertical-align: middle;text-align: right;}
+.subscribe-now-inner button {
+    background: #ba343e;
+    padding: 7px 20px;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+}
+.subscribe-now-inner span + span +span input{padding:7px;}
+.blogs-category {
+    border-top: solid 1px #f3f3f5;
+    border-bottom: solid 1px #f3f3f5;
+    float: left;
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+/*blog page end*/
+@media only screen and (max-width: 600px) {
+    .client ul{
+   
+        padding: 0px;
+        float: left;
+        width: 100%;
+      
+    }
+    .client ul li {
+        list-style: none;
+        
+        padding: 20px 0px;
+        margin-bottom: 50px;
+        display: inline-block;
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .client ul li img{margin:auto;}
+    .subscribe-sec .subscribe-now-inner, .subscribe-now-inner span, .subscribe-now-inner span + span +span,.subscribe-now-inner span + span {
+        display: block;
+        text-align: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .blogs-category .sep{margin-bottom: 10px;}
+
+  }

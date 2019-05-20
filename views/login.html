@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-logo"><img src="images/logo.png"></div>
+        <form action="/login" method="POST">
+        <div class="form-group">
+            <input type="text" placeholder="EmailId or Mobile Number" name="username">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Password" name="password">
+        </div>
+        <div class="form-group">
+            <div class="col-md-12 checkbox-login"><span><input type="checkbox"></span> <span>Remember Me</span></div>
+        </div>
+        <div class="form-group"><button>Login</button></div>
+    </form>
+        <div class="col-md-12 fogot-pass-text"><a href="forget-password.html">Forgot Password</a></div>
+        <div class="col-md-12 fogot-pass-text">Resend Activation Email</div>
+        <div class="login-or-sec">
+            <div class="circle">OR</div>
+        </div>
+        <div class="socical-icon">
+            <ul>
+                <li><img src="images/fb.png"></li>
+                <li><img src="images/gmail.png"></li>
+                <li><img src="images/linkin.png"></li>
+                <li><img src="images/twiter.png"></li>
+            </ul>
+        </div>
+
+        <div class="dont-have-account"><a href="register.html">Dont have an account? Register now</a></div>
+        <div class="copy-right-text">Copywright@ ICCPL 2019 All rights reserved </div>
+    </div>
+</body>
+
+</html>

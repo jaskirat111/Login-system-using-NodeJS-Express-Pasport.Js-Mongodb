@@ -1,0 +1,57 @@
+                                                                {
+                                                                padding: 0px;
+                                                                margin: 0px;
+                                                                box-sizing: border-box;
+                                                            }
+                                                            
+                                                            .main {
+                                                                position: absolute;
+                                                                transform: translate(-50%, -50%);
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                /* height: 1100px; */
+                                                                /* border: 1px solid burlywood; */
+                                                            }
+                                                            
+                                                            .designs {
+                                                                border-bottom: 1px solid #909396;
+                                                                border-top: none;
+                                                                border-left: none;
+                                                                border-right: none;
+                                                                width: 30px;
+                                                                display: inline-block;
+                                                                border-width: 1px;
+                                                            }
+                                                            
+                                                            .design {
+                                                                border-radius: 20px 20px 20px 20px;
+                                                            }
+                                                            
+                                                            #logo {
+                                                                /* border: 2px solid black; */
+                                                                padding: 20px 10px;
+                                                                margin-top: 50px;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            .imaging {
+                                                                margin-bottom: 50px;
+                                                                /* width: 100%; */
+                                                            }
+                                                            
+                                                            #rg {
+                                                                font-size: 13px;
+                                                            }
+                                                            
+                                                            .dec {
+                                                                font-size: 10px;
+                                                            }
+                                                            
+                                                            #design1 {
+                                                                background-color: black;
+                                                            }
+                                                            
+                                                            #time {
+                                                                font-size: 30px;
+                                                                font-weight: bold;
+                                                                color: #909396;

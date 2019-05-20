@@ -1,0 +1,136 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.account-section {
+    background: #f3f3f4;
+    margin-top: 50px;
+    padding: 50px 0px 20px 0px;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.image {
+    width: 60px;
+}
+
+.account-section .main h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.account-section .main p {
+    font-size: 12px;
+}
+
+.search-section {
+    padding: 30px 10px 60px 10px;
+}
+
+.search-section input {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.we-help-section h2 {
+    font-size: 20px;
+}
+
+.we-help-section label {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 5px 0px 5px 10px;
+    background-color: #f3f3f4;
+    display: inline-block;
+}
+
+.we-help-section label span {
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px 0px 0px;
+}
+
+.we-help-section .item {
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.we-help-section input[type="radio"] {
+    display: none;
+}
+
+.we-help-section input[type="radio"]:checked+.item {
+    height: 280px;
+}
+
+.we-help-section .item ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.we-help-section .item ul li {
+    /* background: #f3f3f4; */
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.we-help-section .your-query {
+    background: #fcfcfc;
+    margin-top: 50px;
+    padding: 15px 15px 15px 15px;
+}
+
+.we-help-section .your-query h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.we-help-section .your-query p {
+    font-size: 12px;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.we-help-section .your-query img {
+    width: 16%;
+    margin-top: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    margin: auto;
+}
+
+.we-help-section .your-query h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.we-help-section .your-query h5 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .account-section {
+        text-align: center;
+    }
+    .image {
+        display: inline-block;
+    }
+    .main {
+        width: 100%;
+        text-align: center;
+    }
+}

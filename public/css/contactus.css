@@ -1,0 +1,104 @@
+/**contact us start*/
+.premises-box-contact-us .box {
+    background-color: #f3f3f5;
+    padding: 40px 40px 40px 25px;
+    float: left;
+    width: 100%;
+}
+.our-premises-inner-text{display:table; width:100%}
+.our-premises-inner-text .contact-us-cell{display:table-cell;}
+.contact-us-cell .our-premises-red-text {
+    color: #ba3538;
+    font-size: 55px;
+    font-weight: bold;
+}
+.our-premises-inner-text .contact-us-cell{vertical-align: bottom; float: none;}
+.contact-us-cell .our-premises-red-text span {
+    display: block;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: -32px;
+    font-weight: normal;
+}
+.contact-us-cell p.development-text {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.premises-box-contact-us {
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-0%);
+    left: 50%;
+}
+.contact-us-main-banner {
+    background: url(../images/telbooth.png);
+    width: 100%;
+    height: 1154px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-size: contain; */
+}
+.box-4{
+    margin-top: 40px;
+    float:left;
+    width:100%
+}
+.box-4 input[type="text"],.box-4 select ,.box-4 textarea {
+    border: solid 1px #dfdfdf;
+    padding: 7px;
+    width: 100%;
+    border-radius: 7px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.box-4 textarea{height:100px; resize: none; margin-bottom: 12px;}
+.box-4 button {
+    background: #3a3a3c;
+    color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 7px;
+}
+.followus-text {
+    margin-top: 4px;
+    float: left;
+}
+.followus-text h1 {
+    font-size: 23px;
+    color: #7d7d7f;
+}
+.followus-text p{
+    font-size: 16px;
+    margin-top: 77px;
+}
+.followus-text span{color:#7d7d7f; display: block;margin-top:5px;}
+.align-middle{vertical-align: middle !important;}
+.top{margin-top:11px;}
+.folow-us-contact-us .contact-us-cell .our-premises-red-text span{margin-bottom: -27px}
+.contact-us-socical-icon i {
+    display: inline-block;
+    font-size: 31px;
+    color: #818286;
+    margin-right: 15px;
+}
+ .message-sec .sep{text-align: center;}
+ .message-sec .sep p{font-size: 18px;}
+ .message-sec .sep img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.message-sec{margin:70px 0px}
+
+@media only screen and (max-width: 1280px) {
+    .our-premises-inner-text .contact-us-cell {
+        display: block;
+      
+    width: 100%;
+    }
+}
+/**contact us end*/
+
+
